@@ -1,0 +1,14 @@
+# Python 3.12 compatible dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+python-multipart>=0.0.6
+# Face detection - MTCNN (highest accuracy, requires TensorFlow)
+# Note: TensorFlow 2.13+ supports Python 3.12
+mtcnn>=0.1.1
+tensorflow>=2.13.0
+# Alternative face detection options:
+# face-recognition>=1.3.0  # Uses dlib, lighter than TensorFlow
+
